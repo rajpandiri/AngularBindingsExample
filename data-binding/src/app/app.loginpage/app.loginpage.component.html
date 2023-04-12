@@ -1,0 +1,13 @@
+<p>Login</p>
+<textarea name='EmailAddress'> </textarea>
+<textarea name='passWord'> </textarea>
+
+<input type="text" [(ngModel)] = "emailAddress" >
+
+<br> <br>
+
+Email Address: <p>{{emailAddress}} </p>
+
+<br>
+
+<button (click) = "submitLoginDetails()" > Submit </button>
